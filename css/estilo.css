@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO E MENU*/
+.guardaHeader {
+    background-color: #7EA1BF;
+    height: 140px;
+    width: 100%;
+}
+
+/* DIV IMAGEM*/
+.guardaLogo{
+    width: 180px;
+}
+
+.guardaLogo img{
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+/* DIV MENU PRINCIPAL*/
+.menuLista{
+    width: 100%;
+    height: 30px;
+}
+
+.menuLista ul{
+    list-style-type: none;
+    overflow: hidden;
+    width: 60%;
+    float: right;
+    
+}
+
+.menuLista li{
+    margin-left: 90px;
+    display: inline-flex;
+    
+}
+
+.menuLista li a{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Garamond", 'Verdana';
+    display: block;
+    color: #4B4A59;
+    padding: 40px 12px;
+    text-decoration: none;
+}
+
+.menuLista li a:hover {
+    text-decoration: underline;
+    color:azure;
+}
+
+/* CONTEUDO PAGINA INDEX */
+#guardaConteudo{
+    margin: 0px 25px;
+    padding: 0;
+}
+
+/*BANNER PRINCIPAL DE PROMOÇÕES*/
+.banner {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 2.8em;
+    position: relative;
+}
+
+/* NOTICIAS, PRODUTOS E EQUIPE*/
+.caixa { 
+    width: 99%;
+    padding: 2.4em 4em 2.4em 4em;
+    position: absolute;
+    top: 25px;
+    background: #7EA1BF;
+}
+
+
+.caixa h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4em;
+    font-weight: 200;
+    color: #0F4255;
+}
+
+
+.caixa p {
+    font-size: 1.8em;
+    font-weight: 200;
+    color: white;
+}
+
+.foto{
+    margin-left: 25px;
+}
+
+/* COLUNA DE NOTICIAS EM LINHA*/
+.coluna {
+    background-color: #7EA1BF;
+    border: 1px solid #193799;
+    width: 23.404255319149%; 
+    float: left;
+    margin-right: 14.127659574468%; 
+}
+
+.coluna p{
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 2px;
+    font-weight: bold;
+    color: #0F4255;
+}
+
+.coluna a{
+    text-decoration: none;
+    color: #0F4255;
+}
+
+.coluna:last-child {
+    margin-right: 0;
+}
+
+.tituloIndex {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.4em;
+    font-weight: 200;
+}
+
+#guardaTitulo{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 120px;
+    height: 35px;
+}
+
+/*RODAPÉ DA PAGINA TOTAL*/
+.footer{
+    background: #7EA1BF;
+    width: 100%;
+    margin-top: 90px;
+    float: left;
+}
+
+    
+#guardaFooter{
+    margin-top: 10px;
+    float: left;
+    margin-left: 100px;
+}
+
+#guardaFooter p{
+    font-family: Verdana;
+    font-size: 17px;
+}
+
+/* EMAIL, TELEFONE RODAPÉ*/
+#guardaSocial{
+    margin-top: 14px;
+    float: right;
+    margin-right: 150px;
+}
+
+#guardaSocial ul{
+    list-style: none;
+}
+
+#guardaSocial ul li {
+    font-family: Verdana;
+    font-size: 17px;
+    padding: 10px 10px;
+    bottom: 10px;
+} 
+
+/* CONTEUDO VALORES, MISSÃO E VISÃO*/
+#guardaEquipe{
+    height: 550px;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+/* BANNER LATERAL IMAGEM EQUIPE */
+#bannerEquipe{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background: #7EA1BF;
+    border: 1px solid black;
+}
+
+#bannerEquipe h3{
+    font-family: verdana;
+    text-align: center;
+    margin-top: 10px;
+    color: #0F4255;
+}
+
+/* MISSAO, VALORES, VISAO*/
+#guardaMissao{
+    padding: 10px;
+    margin: 20px;
+    height: 500px;
+    width: 100%;
+    font-size: 15px;
+    font font-weight: bold;
+    font-family: Verdana;
+
+}
+
+#guardaMissao ul{    
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#guardaSuporte h3,p{
+    padding: 10px 10px;
+    font-family: Arial;
+}
+
+#guardaMissao ul li{
+    margin: 2px;
+    font-family: Verdana;
+    padding: 10px;
+    
+}
+
+
+
+.guardaValores {
+    float: left;
+    border-radius: 50%;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border: 1px solid #000000;
+    background-color: #7EA1BF;
+    padding: 30px 20px;
+    margin: 20px 40px;
+}
+
+.guardaValores h3{
+    font-size: 20px;
+    color: #0F4255;
+    padding: 10px 10px;
+    margin-left: 55px;
+}
+
+.guardaValores p{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Arial;
+    padding: 5px 10px;
+}
+
+.guardaValores ul{
+    padding: 5px 45px;
+    font-size: 15px;
+}
+
+/* PAGINA DE ACESSO AO CADASTRO DE ITENS DO SISTEMA*/
+.controlPainel{
+    height: 200px;
+    width: 800px;
+    background-color: #848484;
+    margin: auto;
+}
+
+.guardaPanel{
+    margin-top: 50px;
+    background-color: ;
+    padding: 10px 20px;
+}
+
+.sysControl{
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: #084B8A;
+    padding: 5px 5px;
+}
+
+.guardaPanel input[type=text],input[type=password]{
+    width: 30%;
+    height: 30%;
+}
+
+.guardaPanel label{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.guardaPanel button{
+    background-color: #7EA1BF;
+    border: none;
+    font-weight: bold;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.guardalogoff button{
+    width: 40px;
+    height: 40px;
+    background-color: #FF4000;
+    float: right;
+    margin: 5px 5px;
+    
+}
