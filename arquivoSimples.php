@@ -36,7 +36,8 @@ function lerProdutos(){
 }
 
 function autenticacao($usuario,$senha){
-    $dadosConexao = "host='localhost' port='5432' dbname='cadastro_seaweb' user='postgres' password='123456'";
+    $dadosConexao = "host='ec2-54-227-237-223.compute-1.amazonaws.com' port='5432' dbname='
+d5084fthqu9j47' user='rducjkhngkddkx' password='6f6c8f63d7da780f55e32261f3e5e3471f080fd57843dd140d21899817f06ca5'";
     $conexao = pg_connect($dadosConexao);
     $consulta =  "SELECT * FROM cadastro_usuario";
     $query = pg_query($conexao,$consulta);
